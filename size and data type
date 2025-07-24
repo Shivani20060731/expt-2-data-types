@@ -4,50 +4,51 @@ using namespace std;
 
 int main() {
     int a;
-    cout<<"Enter any integer : ";
+    cout<<"Enter  integer : ";
     cin >> a;
-    cout << "Integer = " << a << " And the size is : "<< sizeof(a) <<"bytes"<<endl ;
+    cout << "Integer = " << a << " And  size is : "<< sizeof(a) <<"bytes"<<endl ;
     
     float b;
-    cout<<"Enter any decimal number : ";
+    cout<<"Enter  decimal number : ";
     cin >> b;
-    cout << "Decimal = " << b << " And the size is : "<< sizeof(b) <<"bytes"<<endl ;
+    cout << "Decimal = " << b << " And  size is : "<< sizeof(b) <<"bytes"<<endl ;
     
     string c;
-    cout<<"Enter any String : ";
+    cout<<"Enter  String : ";
     cin >> c;
-    cout << "String = " << c << " And the size is : "<< sizeof(c) <<"bytes"<<endl ;
+    cout << "String = " << c << " And  size is : "<< sizeof(c) <<"bytes"<<endl ;
     
     double d;
-    cout << "Enter any double : ";
+    cout << "Enter  double : ";
     cin >> d;
-    cout << "Double = " << d << " And the size is : " << sizeof(d) << "bytes" << endl;
+    cout << "Double = " << d << " And  size is : " << sizeof(d) << "bytes" << endl;
     
     char e;
-    cout << "Enter any character : ";
+    cout << "Enter  character : ";
     cin >> e;
-    cout << "Char =  " << e << " And the size is : " << sizeof(e) << "bytes" << endl;
+    cout << "Char =  " << e << " And  size is : " << sizeof(e) << "bytes" << endl;
     
     bool f;
     cout << "Enter boolean : ";
     cin >> f;
-    cout << "Boolean = " << f << " And the size is : " << sizeof(f) <<" bytes "<< endl;
+    cout << "Boolean = " << f << " And  size is : " << sizeof(f) <<" bytes "<< endl;
     
     return 0;
 }
 
 output
 //
-Enter any integer : 6
-Integer = 6 And the size is : 4bytes
-Enter any decimal number : 7.8
-Decimal = 7.8 And the size is : 4bytes
-Enter any String : camera
-String = camera And the size is : 32bytes
-Enter any double : 9
-Double = 9 And the size is : 8bytes
-Enter any character : i
-Char =  i And the size is : 1bytes
-Enter boolean : 2
-Boolean = 1 And the size is : 1 bytes 
+Enter  integer : 56
+Integer = 56 And  size is : 4bytes
+Enter  decimal number : 9.8
+Decimal = 9.8 And  size is : 4bytes
+Enter  String : hello
+String = hello And  size is : 32bytes
+Enter  double : 8
+Double = 8 And  size is : 8bytes
+Enter  character : h
+Char =  h And  size is : 1bytes
+Enter boolean : 7
+Boolean = 1 And  size is : 1 bytes  
+ 
 //
